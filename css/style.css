@@ -150,11 +150,6 @@ iframe {
 	margin: 10px 0 10px;
 }
 
-.border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
-}
-
 .thumbs_up {
 	background: white url(../images/thumbs_up.jpg) no-repeat top right;
 }
@@ -314,6 +309,26 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+
+	.contact {
+		width:300px;
+		float: left;
+		border-right: 1px dotted #ccc;
+		padding-right: 20px;
+	}
+
+	.links {
+		display: inline-block;
+		width:310px;
+		border-right: 1px dotted #ccc;
+		padding-right: 20px;
+		margin-left: 20px;
+	}
+
+	.follow {
+		width: 310px;
+		float: right;
 	}
 
 /********** Footer **********/
