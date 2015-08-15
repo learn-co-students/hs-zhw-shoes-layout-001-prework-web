@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+#summerGrass {
+    width: 66%;
+    display: inline-block;
+}
+
+#shoeArchive {
+    width: 33%;
+    display: inline-block;
+}
+
+#ladyBugs {
+    width: 33%;
+    display: inline-block;
+}
+
+#skaters {
+    width: 33%;
+    display: inline-block;
+
+}
+
+#bluestarHeels {
+    width: 33%;
+    display: inline-block;
+}
+
 
