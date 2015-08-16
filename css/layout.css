@@ -25,22 +25,27 @@
 /* Posititoning Classes */
 
 #summerGrass {
-    width: 66%;
+    width: 63%;
     display: inline-block;
+    float: left;
+    margin-right: 3%;
 }
 
 #shoeArchive {
-    width: 33%;
+    width: 34%;
     display: inline-block;
 }
 
 #ladyBugs {
-    width: 33%;
+    width: 30%;
     display: inline-block;
+    clear: both;
+    margin-top: 20px;
+    margin-right: 2.5%;
 }
 
 #skaters {
-    width: 33%;
+    width: 30%;
     display: inline-block;
 
 }
@@ -48,6 +53,7 @@
 #bluestarHeels {
     width: 33%;
     display: inline-block;
+    margin-left: 2.5%;
 }
 
 
