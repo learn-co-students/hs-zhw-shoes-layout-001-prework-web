@@ -15,6 +15,24 @@ img.verif_img {
 	vertical-align: bottom;
 }
 
+.two_third {
+	width: 66.6%;
+	float: left;
+	margin: 10px;
+}
+
+.one_third {
+	width: 31%;
+	float: left;
+	margin: 11px;
+}
+
+.shoe {
+	float: right;
+	margin: 10px;
+}
+
+
 /********** Global **********/
 
 body {
@@ -124,6 +142,7 @@ iframe {
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+	float: left;
 }
 
 .thumbs_up {
@@ -257,12 +276,16 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin: 10px;
+
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
 	}
+
+
 
 /********** Details **********/
 
