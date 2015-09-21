@@ -24,4 +24,43 @@
 
 /* Posititoning Classes */
 
+.three-col {
+  width: 100%;
+  margin: 10px 0px 10px 0;
+}
+
+.two-col {
+  width: 66%;
+  float: left;
+  margin: 10px 0px 10px 0;
+}
+
+.one-col {
+  width: 32%;
+  height: 100%;
+  float: left;
+  margin-left: 19px;
+  margin-top: 10px;
+  padding-bottom: 23px;
+  /*clear: both;*/
+}
+
+body #first-bottom {
+  width: 32%;
+  float: left;
+  clear: both;
+  margin-left: 0;
+}
+
+/*#details div:last-child {
+  float:left;
+}*/
+
+
+#details #first-detail {
+  width: 32%;
+  float: left;
+  clear: both;
+  margin-left: 0;
+}
 
