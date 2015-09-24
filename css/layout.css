@@ -24,4 +24,15 @@
 
 /* Posititoning Classes */
 
+.two-thirds-column {
+	float: left;
+	width: 64.6666%;
+	margin: 0 1% 1%; 
+}
+
+.one-third-column {
+	float: left;
+	width: 31.3333%;
+	margin: 0 1% 1%; 
+}
 
