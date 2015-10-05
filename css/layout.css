@@ -58,6 +58,9 @@
   clear: right;
 }
 
+#single, #double {
+  height: 600px;
+}
 
 
 
