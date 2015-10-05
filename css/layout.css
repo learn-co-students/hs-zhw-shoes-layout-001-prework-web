@@ -15,7 +15,11 @@
   clear: both;
   visibility: hidden;
   height: 0;
-  line-height: 0;
+  line-height: 0; 
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 .clear {
@@ -23,5 +27,38 @@
 }
 
 /* Posititoning Classes */
+
+.shadow {
+  margin-bottom: 20px;
+}
+
+.three-column {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+.two-column {
+  width: 66%;
+  float: left;
+}
+
+.one-column {
+  width: 32%;
+  float: left;
+}
+
+.left-edge {
+  margin-right: 2%;
+}
+
+.right-edge {
+  margin-left: 2%;
+  float: right;
+  clear: right;
+}
+
+
+
 
 
