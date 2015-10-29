@@ -22,6 +22,46 @@
   clear: both;
 }
 
+div.table-spaced {
+	display: table;
+	border: 0px;
+}
+
+div.table-row {
+	dislay: table-row;
+	margin-bottom: 20px;
+}
+
+div.row-break {
+	margin: 0 20px 0 20px;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.no-border {
+	border: 0px;
+}
+
+div.rightmost {
+	padding: 0px;
+}
+
+div.width-one-third {
+	width: 33%;
+	max-width: 33%
+}
+
+div.width-two-thirds {
+	width: 66%;
+	max-width: 66%
+}
+
+div.padded {
+	padding: 0 10px 0 10px;
+}
 /* Posititoning Classes */
-
-
