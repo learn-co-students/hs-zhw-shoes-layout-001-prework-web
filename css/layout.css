@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+#featured-brands {
+  float: left;
+  width: 65%;
+  margin-right: 1%; 
+}
 
+#archive-list {
+  float: right;
+  width: 32%;
+  margin-left: 1%;
+}
+
+.col-left {
+  margin-right: 1%;
+  float: left;
+  width: 28%;
+}
+
+.col-center {
+  display: inline-block;
+  width: 28%;
+}
+
+.col-right {
+  float: right;
+  width: 28%;
+}
