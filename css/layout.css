@@ -24,6 +24,10 @@
 
 /* Posititoning Classes */
 
+#social {
+  float: right;
+}
+
 h2.milk_text {
   margin-top: 20px;
 }
