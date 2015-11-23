@@ -24,4 +24,37 @@
 
 /* Posititoning Classes */
 
+h2.milk_text {
+  margin-top: 20px;
+}
 
+.two-thirds {
+  width: 66%;
+  margin-right: 2%;
+  float: left;
+}
+
+.one-third {
+  width: 32%;
+  margin-right: 2%;
+  float: left;
+  margin-top: 20px;
+}
+
+.two-thirds + .one-third {
+  margin-top: 0;
+}
+
+.one-third:last-child, .two-thirds + .one-third {
+  margin-right: 0;
+}
+
+#details .wrapper div {
+  width: 32%;
+  float: left;
+}
+
+#details .wrapper div.border_right {
+  margin-right: 2%;
+  border-right: solid 1px rgb(228,228,228);
+}
