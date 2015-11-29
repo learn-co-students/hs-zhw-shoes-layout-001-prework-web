@@ -24,4 +24,25 @@
 
 /* Posititoning Classes */
 
+.box_small {
+  float: left;
+  margin: 1%;
+  width: 31%;
+}
+
+.box_large {
+  float: left;
+  width: 64%;
+  margin-left: 1%;
+}
+
+.box_large + .box_small {
+  margin-top:0%;
+  margin-left:2%;
+}
+
+.top_row {
+  height: 580px;
+}
+
 
