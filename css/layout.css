@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.fulldiv {
+  width: 100%;
+  margin-bottom: 2%;
+}
 
+.twothirdsdiv {
+  width: 66%;
+  float: left;
+  padding-top: 2%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.onethirddiv {
+  width: 32%;
+  float: left;
+  padding-bottom: .44%;
+}
+
+#first{
+  margin-right: 2%
+}
+
+#second{
+  margin-right: 2%
+}
