@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+.shadow#sale {
+  margin: 0 0 2.5% 0;
+}
+
+.shadow#featured {
+  float: left;
+  width: 66%;
+  height: 570px;
+}
+.shadow#archive {
+  float: right;
+  width: 32%;
+  height: 570px
+}
+
+/* lady skateshoe bluestar */
+.shadow#lady {
+  float: left;
+  width: 32%;
+  height: 350px;
+  margin: 2% 1% 1% 0;
+}
+
+.shadow#skateshoe {
+  float: left;
+  width: 32%;
+  height: 350px;
+  margin: 2% 0.5% 1% 1%;
+  
+}
+
+.shadow#bluestar {
+  float: right;
+  width: 32%;
+  height: 350px;
+  margin: 2% 0 1% 1%;
+}
 
