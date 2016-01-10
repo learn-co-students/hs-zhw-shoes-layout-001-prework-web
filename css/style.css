@@ -303,3 +303,35 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+#sec_a{
+	float: left;
+	width: 75%;
+}
+#sec_b{
+	float: right;
+	width: 22%;
+	height: 100%;
+}
+.clear {
+	clear: both;
+}
+#otr{
+	display: inline;
+}
+#otr section { 
+	float: left;
+	width:30%;
+	margin: 0.5em;
+}  
+
+	width: 30%;
+float: left;
+}
+.ftr_center {
+	float: center;
+}
+.ftr_right{
+
+	width: 30%;
+	
+}
