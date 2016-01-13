@@ -16,12 +16,38 @@
   visibility: hidden;
   height: 0;
   line-height: 0;
+  margin-bottom: 20px;
 }
 
 .clear {
   clear: both;
 }
 
-/* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #fff;
+}
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #fff;
+}
+
+.col-3 {
+  background: #fff;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+#details .border_right{
+  background: none;
+}
 
 
