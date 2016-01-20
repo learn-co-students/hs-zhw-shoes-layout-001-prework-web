@@ -41,3 +41,8 @@
 .first {
   margin-left: 0;
 }
+
+.featured {
+  height: 600px;
+  margin-bottom: 20px;
+}
