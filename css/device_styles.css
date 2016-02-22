@@ -26,6 +26,14 @@
 		display: inline-block;
 	}
 
+	.col-1 {
+	  width: 31.9%;
+	}
+
+	.col-2 {
+	  width: 66%;
+	}
+
 }
 
 /**
@@ -36,6 +44,14 @@
 
 	#nav_bar nav a {
 		font-size: 0.8em;
+	}
+
+	.col-1 {
+	  width: 31.1%;
+	}
+
+	.col-2 {
+	  width: 65.5%;
 	}
 
 }
@@ -87,6 +103,14 @@
 		display: none;
 	}
 
+	.col-1 {
+	  width: 30.3333%;
+	}
+
+	.col-2 {
+	  width: 64.6666%;
+	}
+
 }
 
 /**
@@ -136,6 +160,14 @@
 		display: inline-block;
 		width: 70%;
 		margin-right: 5px;
+	}
+
+	.col-1 {
+	  width: 31.9%;
+	}
+
+	.col-2 {
+	  width: 66%;
 	}
 
 }
