@@ -1,14 +1,13 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -17,11 +16,29 @@
   height: 0;
   line-height: 0;
 }
-
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
 
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  width: 100%;
+}
 
+/* set col widths */
+
+.col-2-3 {
+  width: 66%;
+}
+.col-1-3 {
+  width: 33%;
+}
