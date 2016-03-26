@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.flex {
+  display: table;
+  display: flex;
+
+}
+
+.col-2 {
+  float: left;
+  display: table-cell;
+  width: 66%;
+}
+
+.col-1 {
+  float: left;
+  display: table-cell;
+  width: 32%;
+}
+
+.col-3 {
+  float: left;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
 
