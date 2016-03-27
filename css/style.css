@@ -114,16 +114,40 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+.featured-brands {
+	float: left;
+	width:630px;
+	margin: 0 20px 0 0;
+}
+
+.archive-list {
+	float: right;
+	width:310px;
+}
+
+.lady-bugs {
+	float: left;
+	width:300px;
+	margin: 20px 20px 0 0;
+}
+
+.skaters {
+	display: inline-block;
+	width: 310px;
+	margin: 20px 20px 0 0;
+}
+
+.bluestar-heels {
+	float:right;
+	width:310px;
+	margin: 20px 0px 0 0;
+}
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
-	margin: 0 0 10px;
-}
-
-.border_right {
-	border-right: 1px dotted #ccc;
-	padding-right: 20px;
+	margin: 10px 0 10px;
 }
 
 .thumbs_up {
@@ -263,7 +287,6 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
-
 /********** Details **********/
 
 #details {
@@ -286,6 +309,26 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+
+	.contact {
+		width:300px;
+		float: left;
+		border-right: 1px dotted #ccc;
+		padding-right: 20px;
+	}
+
+	.links {
+		display: inline-block;
+		width:310px;
+		border-right: 1px dotted #ccc;
+		padding-right: 20px;
+		margin-left: 20px;
+	}
+
+	.follow {
+		width: 310px;
+		float: right;
 	}
 
 /********** Footer **********/
