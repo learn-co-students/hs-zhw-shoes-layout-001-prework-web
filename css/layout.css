@@ -24,4 +24,54 @@
 
 /* Posititoning Classes */
 
+body, html {
+  height: 100%;
+}
+
+.col-1 {
+  width: 100%
+}
+
+.col-2 {
+  width: 66%;
+  margin-left: 2%;
+  float: left;
+}
+
+.col-3 {
+  width: 32%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+footer {
+  position: block; 
+  background-color: #fff; 
+  padding-bottom: 0; 
+  bottom: 0; 
+}
+
+.extrapadding {
+  padding-bottom: 31.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
