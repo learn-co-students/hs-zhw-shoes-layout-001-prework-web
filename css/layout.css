@@ -25,20 +25,22 @@
 .row {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-}
-.row:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 [class*="col-"] {
   width: 100%;
 }
+[class*="col-"]:first-child {}
+[class*="col-"]:last-child {}
 
 /* set col widths */
 
+.col3-3 {
+  width: 100%;
+}
 .col-2-3 {
-  width: 66%;
+  width: 66.66666667%;
 }
 .col-1-3 {
-  width: 33%;
+  width: 33.33333333%;
 }
