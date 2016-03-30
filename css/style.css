@@ -114,6 +114,9 @@ iframe {
 	box-shadow: 0 3px 10px #333;
 }
 
+
+
+
 .milk_text {
 	font: bold 42px 'Elsie Swash Caps', cursive;
 	color: white;
@@ -263,6 +266,48 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+
+/********** Content Columns ****************/
+/*******************************************/
+
+.col-1 {
+	float:left;
+	width: 32%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+	height: 100%;
+}
+
+.col-3 {
+
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0;
+}
+
+.clarfix:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility: hiddden;
+	height: 100%;
+	line-height: 0;
+
+}
+
+* {
+	box-sizing: border-box;
+}
 
 /********** Details **********/
 
