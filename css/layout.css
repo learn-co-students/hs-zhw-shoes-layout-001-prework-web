@@ -23,5 +23,17 @@
 }
 
 /* Posititoning Classes */
+.clearfix .shadow {
+  width: 31%;
+  display: inline-block;
+  margin: 5px;
 
+}
+.clearfix .shadow:first-of-type {
+  width: 100%;
+}
+.clearfix .shadow:nth-of-type(2) {
+  width: 62%;
+  display: inline-block;
+}
 
