@@ -24,4 +24,98 @@
 
 /* Posititoning Classes */
 
+h2.milk_text {
+  margin-top: 20px;
+}
+
+div #featured-and-archive {
+  float: left;
+  overflow: hidden;
+}
+
+#featured {
+  float: left;
+  width: 64%;
+  margin: 10px;
+  margin-left: 0px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+#archive {
+  float: left;
+  width: 32.5%;
+  margin: 10px;
+  margin-right: 0px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+/* 3 sections */
+
+div #deals-deals {
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+#bug {
+  float: left;
+  width: 31%;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+#skate {
+  float: left;
+  width: 31%;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+#heels {
+  float: left;
+  width: 32.5%;
+  margin-top: 10px;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+
+
+
+
+#bottoms-up {
+  float: center;
+  overflow: hidden;
+}
+
+#contact-left {
+  float: left;
+  width: 30%;
+
+
+
+}
+
+#links-center {
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+
+
+#follow-right {
+  float: left;
+  width: 30%;
+  margin-left: 20px;
+}
+
+
+
+
+
 
