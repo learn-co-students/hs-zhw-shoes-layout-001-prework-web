@@ -22,14 +22,15 @@
 
 /* Posititoning Classes */
 .row {
-  display: flex;
-  flex-flow: row wrap;
+  display: block;
   margin-bottom: 20px;
   margin-left: -10px;
   margin-right: -10px;
 }
 /* set col widths */
 [class*='col-'] {
+  display: inline-block;
+  float: left;
   padding-left: 10px;
   padding-right: 10px;
 }
