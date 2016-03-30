@@ -22,6 +22,16 @@
   clear: both;
 }
 
-/* Posititoning Classes */
-
-
+#archive {
+ position: absolute;
+    left: 1250px;
+    top: 1000px;
+  }/* Posititoning Classes */
+#summer {
+  column-span: 2;
+}
+#deals {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
