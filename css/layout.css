@@ -25,3 +25,25 @@
 /* Posititoning Classes */
 
 
+.left {
+	float: left;
+	margin-bottom: 30px;
+}
+
+.right {
+	float: right;
+	margin-bottom: 30px;
+}
+
+.middle {
+	float: left;
+	margin-left: 3%;
+}
+
+.one-third-width {
+	width: 31.3%;
+}
+
+.two-thirds-width {
+	width: 65.6%;
+}
