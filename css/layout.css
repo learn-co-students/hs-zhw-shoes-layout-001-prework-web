@@ -24,4 +24,41 @@
 
 /* Posititoning Classes */
 
+#brands {
+    display: inline-block;
+} 
 
+.arcleft {
+    float: left;
+    width: 49%;
+    margin-right: 1%;
+    }
+
+.arcright {
+    float: right;
+    width: 49%;
+    margin-left: 1%;
+}
+
+#shoeline {
+    display: inline-block;
+}
+
+.picone {
+    float: left;
+    width: 32%;
+    margin-right: 1%
+}
+
+.pictwo {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.picthree {
+    float: right;
+    width: 32%;
+    margin-left: 1%;
+}
