@@ -24,4 +24,68 @@
 
 /* Posititoning Classes */
 
+.col-1 {    /* 1/3 */
+  float: left;
+  width: 32%;
+  clear; left;
+}
 
+.col-2 {    /* 2/3 */
+  float:left;
+  width: 66%;
+  clear:left;
+}
+
+.col-3 {    /* 3/3 or 100% */
+  
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+  clear: both;
+}
+
+img, video, audio {
+  max-width: 100%;
+}
+
+/*
+.col-1 {
+  float: left;
+  width: 32%;
+  background: #ccc;
+  clear; left;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+/* --- media --- */
+/*
+img, video, audio {
+  max-width: 100%;
+}
+*/
+/* should keep media elements to 100% of their parent container */
+
+
+*/
