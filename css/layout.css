@@ -23,5 +23,38 @@
 }
 
 /* Posititoning Classes */
+/* ------ COLUMNS ------- */
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+/* ------- FEATURE ---------*/
+p.summer_grass{
+  margin-bottom: 22px;
+}
+
+h2.feature {
+  margin-top: 1%;
+}
+
+/* --------- FOOTER -------- */
 
 
+footer {
+  background: rgb(223,223,223);
+}
