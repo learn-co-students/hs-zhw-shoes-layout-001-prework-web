@@ -52,6 +52,6 @@ section.first div {
 	float: right;
 }
 
-h2.milk_text {
+h2.milk_test {
 	margin: .5em 0 0 0;
 }
