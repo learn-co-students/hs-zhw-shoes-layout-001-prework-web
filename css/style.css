@@ -5,7 +5,7 @@
 /* scale all images, and media to accomodate responsive layout. */
 img, video, audio, iframe, table, form { 
 	width:100%; /* IE */
-	max-width: 100%; /* FF, Safari, Chrome */
+	max-width: 550px; /* FF, Safari, Chrome */
 }
 
 /* prevent the verify image on contact page from stretching */
@@ -259,6 +259,16 @@ iframe {
 		background: white;
 	}
 
+	#shoearchive {
+		margin-bottom: 20px;
+	}
+
+	#summergrass {
+		bottom: 0;
+		margin-bottom: 0px;
+		min-height: 590px;
+	}
+
 	section a {
 		color: #555;
 		text-decoration: underline;
@@ -302,4 +312,15 @@ footer {
 		text-decoration: underline;
 	}
 
+#fstblock {
+	background: rgba(255,255,255,1);
+}
+
+#topsection {
+	background: #fff;
+}
+
+.transparent {
+	background: rgba(255,255,255,0);
+}
 /* code examples copyright Jonathan Grover 2012 */
