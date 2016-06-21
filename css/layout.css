@@ -24,4 +24,33 @@
 
 /* Posititoning Classes */
 
+/* Column Grid */
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+/* //// FIXES //// */
+.milk_text {
+  /*margin: 0 0 10px; // fix top margin*/
+  margin: 10px 0 10px;
+}
+section {
+  margin-bottom: 2%; 
+}
