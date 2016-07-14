@@ -264,6 +264,39 @@ iframe {
 		text-decoration: underline;
 	}
 
+/********** My Code **********/
+
+section {
+	margin-bottom: 20px;
+}
+
+.col-1 {
+	/* this column spans 1/3 */
+	float: left;
+	width: 306.6666666px;
+	margin-left: 20px;
+}
+
+.col-2 {
+	  /* this column spans 2/3 */
+	  float: left;
+	  width: 633.3333333px;
+
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.first {
+  margin-left: 0;
+}
+
 /********** Details **********/
 
 #details {
