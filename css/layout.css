@@ -1,4 +1,4 @@
-/********** Fixes **********/
+/*======================== Fixes ===================*/
 
 * {
   margin:0;
@@ -9,7 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
-/* Posititoning Classes */
+/* ================ Posititoning Classes ===========*/
 
   .row {
     clear: both;
@@ -33,6 +33,5 @@
   [class*="col-"]:first-child {
     margin-left: 0;
   }
-
   .col-4 { width: 32%; }
   .col-8 { width: 66%; }
