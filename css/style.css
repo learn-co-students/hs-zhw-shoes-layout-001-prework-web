@@ -1,4 +1,4 @@
-/********** Web Fonts **********/
+********* Web Fonts **********/
 @import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900); /* font-family: 'Elsie Swash Caps', cursive; */
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
@@ -115,7 +115,7 @@ iframe {
 }
 
 .milk_text {
-	font: bold 42px 'Elsie Swash Caps', cursive;
+	font: bold 42px 'Clicker Script', cursive;
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
@@ -294,7 +294,7 @@ footer {
 	text-align: center;
 	font-size: 10px;
 	color: #555;
-	padding: 10px 0 20px;
+	padding: 20px 0 10px;
 }
 
 	footer a {
@@ -302,4 +302,35 @@ footer {
 		text-decoration: underline;
 	}
 
-/* code examples copyright Jonathan Grover 2012 */
+
+/*////// LAYOUT //////*/
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 31%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.i-hope-this-works {
+
+}
+
+/* code examples copyright Jonathan Grover 2012 
