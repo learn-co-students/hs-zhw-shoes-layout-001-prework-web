@@ -15,6 +15,83 @@ img.verif_img {
 	vertical-align: bottom;
 }
 
+
+
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+
+[class*="col-"] {
+
+  margin-bottom: 20px;
+}
+
+
+/*Layout Columns*/
+
+/*.deals{
+	margin-width: 100%;
+	display: inline-block;
+
+
+}*/
+
+img{
+	margin-width: 100%; 
+}
+
+
+
+.col-1{
+	float: left;
+	width: 32%;
+	margin: 10px 10px 10px 0px;
+
+}
+.first{
+	clear: both; 
+
+	margin-left: 0.5em;
+
+}
+#footer-case{
+	background: #fff;
+	width: 100%;
+}
+
+#extend{
+	padding: 2em;
+	visibility: hidden;
+}
+.last{
+	height: 36em;
+	margin: 10px 10px 0px 0px;
+	float: right;
+}
+
+#deals{
+	display: inline-block;
+	/*padding-bottom: 2em;*/
+}
+/*.col-1 [alt="Pair fo Lady Bug Shoes"]{
+	float: left;
+}*/
+.col-2{
+	float: left;
+	width: 64%;
+	margin: 10px 10px 10px 0px;
+	/*margin: 10px 10px 10px 0px;*/
+
+}
+.col-3{
+
+}
+
 /********** Global **********/
 
 body {
@@ -23,6 +100,7 @@ body {
 
 h2, h3 {
 	margin-bottom: 5px;
+	margin-left: 0px;
 }
 
 ul, ol {
@@ -112,6 +190,10 @@ iframe {
 
 .shadow {
 	box-shadow: 0 3px 10px #333;
+
+
+
+
 }
 
 .milk_text {
@@ -119,6 +201,7 @@ iframe {
 	color: white;
 	text-shadow: 0 2px 3px #000;
 	margin: 0 0 10px;
+	padding: 10px;
 }
 
 .border_right {
@@ -295,11 +378,28 @@ footer {
 	font-size: 10px;
 	color: #555;
 	padding: 10px 0 20px;
+	background: #fff;
 }
 
-	footer a {
+footer a {
 		color: #555;
 		text-decoration: underline;
+		background: #fff;
+		height: 100%
+
 	}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
+
+
+
+
 
 /* code examples copyright Jonathan Grover 2012 */
