@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -257,11 +257,28 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		margin: 1% 1%;
+		display:inline-block;
+		float:left;
 	}
 
 	section a {
 		color: #555;
 		text-decoration: underline;
+	}
+
+	#sec{
+		width:64.8%;
+		height: 100%;
+	}
+
+	#shoe_archive {
+		width:31.2%;
+		height: 100%;
+	}
+
+	.deal {
+		width: 31.3%
 	}
 
 /********** Details **********/
@@ -277,8 +294,8 @@ iframe {
 	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
-}
-
+	width:100%;
+	}
 	#details a:link, #details a:visited {
 		color: black;
 		text-decoration: none;
@@ -286,6 +303,17 @@ iframe {
 
 	#details a:hover, #details a:active {
 		text-decoration: underline;
+	}
+	#details .wrapper {
+		display:block;
+	}
+
+	#details .wrapper div {
+
+		margin: 0 1%;
+		display:inline-block;
+		float:left;
+		width:31%
 	}
 
 /********** Footer **********/
